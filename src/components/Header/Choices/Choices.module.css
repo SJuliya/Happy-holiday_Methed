@@ -32,8 +32,12 @@
     margin-bottom: 10px;
 }
 
-item:last-child {
+.item:last-child {
     margin-bottom: 0;
+}
+
+.linkActive {
+    color: rgb(0, 98, 70);
 }
 
 @media (max-width: 1024px) {
