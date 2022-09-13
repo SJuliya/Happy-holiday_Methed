@@ -24,6 +24,7 @@ const Header = () => {
                         >Поменять поздравление</button>
                         <button
                             className={style.button}
+                            disabled={!holiday}
                             onClick={() => {
                                 dispatch(fetchImage(holiday))
                             }}
